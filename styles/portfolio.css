@@ -8,7 +8,7 @@
     color: #FD6E0A;
 }
 .btn-primary {
-    color: azure;
+    color: rgb(131, 133, 133);
     height: 64px;
     font-weight: 700;
     font-size: 20px;
@@ -19,7 +19,7 @@
 
 }
 .header{
-    background: #d1d0cf;
+    background: #e9e7e4;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
@@ -61,7 +61,7 @@ nav li{
 
 }
 .banner-description{
-    color: #81807e;
+    color: #d3d2d0;
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -76,7 +76,7 @@ main{
 /* about section styles */
 .about{
     margin-top: 130px;
-    background: #dddcda;
+    background: #f0efec;
     padding: 130px 150px;
     text-align: center;
 }
@@ -88,7 +88,7 @@ main{
     
 }
 .section-description{
-    color: #686866;
+    color: #7a7a78;
     font-size: 18px;
     margin-bottom: 30px;
     
@@ -139,3 +139,59 @@ main{
     color: #686866;
 }
 /* Resume styles */
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-item .tittle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #aaa5a5;
+    margin-bottom: 20px;
+    
+
+}
+.resume .sub-tittle{
+    color:#686866 ;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.resume .description{
+    color: #686866;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* contact styles */
+.contact .section-tittle{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #f7f7f4;
+    padding: 50px 200px;
+}
+.contact input[type="text"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 20px;
+    border-radius: 30px;
+}
+.contactn a{
+    text-decoration: none;
+}
