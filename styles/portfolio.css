@@ -81,10 +81,11 @@ main{
     text-align: center;
 }
 .section-tittle{
-    
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
+    
 }
 .section-description{
     color: #686866;
@@ -108,3 +109,33 @@ main{
     color: #444343;
 
 }
+/* what i do styels */
+
+.what-i-do{
+    margin-top: 130px;
+    
+    
+
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #f8f8f8;
+    box-shadow: opx 6px 50px rgb(110, 110, 110);
+    border-radius: 5px;
+    padding: 30px;
+    
+    
+}
+.skill-tittle{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #686866;
+}
+/* Resume styles */
