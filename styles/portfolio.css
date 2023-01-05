@@ -140,19 +140,29 @@ main{
 }
 /* Resume styles */
 
+
+.section-tittle{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
 .resume-content{
     display: flex;
     gap: 24px;
+    
+}
+.resume-tittle{
+    background-color: #a89d95;
+    
 }
 .resume-item{
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 .resume-item .tittle{
     font-weight: 700;
     font-size: 25px;
-    color: #aaa5a5;
-    margin-bottom: 20px;
+    color: #cc1818;
+    margin-bottom: 15px;
     
 
 }
